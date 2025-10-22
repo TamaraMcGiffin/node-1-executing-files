@@ -15,4 +15,8 @@ let reversedString = "";
 
 // Your code here
 
+for (let value of inputString) {
+  reversedString = value + reversedString;
+}
+
 console.log(reversedString);
